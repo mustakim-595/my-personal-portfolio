@@ -8,8 +8,8 @@ function Hero() {
             <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2 md:gap-16">
                 {/* Introduction */}
                 <div className="animate-[fadeUp_0.8s_ease-out_both]">
-                    <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-600 dark:text-blue-400">
-                        <span className="h-2 w-2 rounded-full bg-blue-500" />
+                    <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-cyan-500/10 bg-cyan-500/10 px-4 py-2 text-sm font-medium text-cyan-600 dark:text-cyan-600/80">
+                        <span className="h-2 w-2 rounded-full bg-cyan-600" />
                         Aspiring Full-Stack Developer
                     </p>
 
@@ -29,7 +29,7 @@ function Hero() {
                     <div className="mt-8 flex flex-wrap gap-3">
                         <a
                             href="#projects"
-                            className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-700"
+                            className="inline-flex items-center gap-2 rounded-xl bg-[#007bff] px-5 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#0061ca]"
                         >
                             View Projects <span aria-hidden="true">↗</span>
                         </a>
@@ -49,16 +49,17 @@ function Hero() {
 
                 {/* Temporary Profile Photo */}
                 <div className="relative mx-auto w-full max-w-md animate-[fadeUp_1s_ease-out_both] md:ml-auto">
-                    <div className="absolute -inset-3 rounded-[2rem] bg-blue-500/10 blur-2xl" />
+                    <div className="absolute -inset-3 rounded-[5rem] bg-cyan-500/20 blur-2xl" />
 
-                    <div className="relative overflow-hidden rounded-3xl border border-gray-200/80 bg-gray-100 shadow-xl shadow-gray-900/10 dark:border-gray-700/70 dark:bg-gray-900 dark:shadow-black/20">
+                    <div className="relative overflow-hidden rounded-full border-2 border-gray-300 bg-gray-100 shadow-2xl shadow-gray-900/10 dark:border-cyan-500/50 
+                    dark:bg-gray-900 dark:shadow-black/20 flex flex-col justify-center items-center">
                         <img
-                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=85"
-                            alt="Temporary profile photo"
-                            className="aspect-[4/5] w-full object-cover object-center"
+                            src="/profile.jpg"
+                            alt="My Profile"
+                            className=" w-full object-cover object-center"
                         />
 
-                        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent p-6 pt-20">
+                        <div className="absolute bottom-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent p-6 pt-20 flex flex-col justify-center items-center w-full">
                             <p className="text-lg font-semibold text-white">
                                 Mustakim
                             </p>

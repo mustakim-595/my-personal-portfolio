@@ -62,7 +62,7 @@ function Contact() {
 
                 <div className="grid gap-8 lg:grid-cols-5">
                     {/* Contact Information */}
-                    <div className="space-y-5 lg:col-span-2">
+                    <div className="space-y-5 lg:col-span-2 flex flex-col justify-between">
                         <Reveal direction="left">
                             <div className="rounded-2xl border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900/60">
                                 <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
@@ -108,6 +108,23 @@ function Contact() {
                                     className="mt-2 inline-block font-semibold text-gray-900 transition hover:text-blue-600 dark:text-white dark:hover:text-blue-400"
                                 >
                                     Connect on LinkedIn ↗
+                                </a>
+                            </div>
+                        </Reveal>
+
+                        <Reveal direction="left" delay={200}>
+                            <div className="rounded-2xl border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900/60">
+                                <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                                    Facebook
+                                </p>
+
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="mt-2 inline-block font-semibold text-gray-900 transition hover:text-blue-600 dark:text-white dark:hover:text-blue-400"
+                                >
+                                    Connect on Facebook ↗
                                 </a>
                             </div>
                         </Reveal>

@@ -13,7 +13,9 @@ function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="border-t border-gray-200 bg-gray-50 px-5 py-10 transition-colors duration-300 dark:border-gray-800 dark:bg-[#0b1120] lg:px-8">
+        <footer className="border-t border-cyan-500/10 bg-gray-50 px-5 py-10 transition-colors duration-300 dark:border-gray-800 dark:bg-cyan-500/5 lg:px-8 relative overflow-hidden backdrop-blur-2xl">
+            <div className="absolute bottom--5 left-0 w-70 h-70 rounded-full bg-cyan-500/5 blur-2xl"/>
+            <div className="absolute bottom--5 right-0 w-70 h-70 rounded-full bg-cyan-500/5 blur-2xl"/>
             <div className="mx-auto max-w-6xl">
                 <Reveal direction="up">
                     <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">

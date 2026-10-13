@@ -26,7 +26,7 @@ function About() {
     return (
         <section
             id="about"
-            className="scroll-mt-28 px-5 py-20 transition-colors duration-300 sm:py-24 lg:px-8"
+            className="scroll-mt-28 px-5 py-20 transition-colors duration-300 sm:py-24 lg:px-8 "
         >
             <div className="mx-auto max-w-6xl">
                 {/* Section Heading */}
